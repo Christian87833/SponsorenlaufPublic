@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @font-face {
+            font-family: 'CustomFont';
+            src: url('lib\\ArialMT.woff2') format('woff2');
+            font-weight: normal;
+        }
+
+        @font-face {
+            font-family: 'CustomFont';
+            src: url('lib\\Arial-BoldMT.woff2') format('woff2');
+            font-weight: bold;
+        }
+        body {
+            font-family: 'CustomFont', sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: #333333;
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .bill-details {
+            margin-bottom: 30px;
+        }
+
+        .bill-details p {
+            margin: 0;
+        }
+
+        .bill-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+
+        .bill-table th,
+        .bill-table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .bill-table th {
+            background-color: #f5f5f5;
+        }
+
+        .total-amount {
+            text-align: right;
+            margin-top: 30px;
+        }
+
+        .total-amount p {
+            margin: 0;
+        }
+
+        .foot {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>Erinnerung Sponsorenlauf</h1>
+    </div>
+
+    <div class="bill-details">
+        <p style="text-align: left;">Sehr geehrte[title] [name]</p>
+        <p style="text-align: justify;"> Vielleicht haben Sie im Trubel des Alltags übersehen, die Rechnung für den Sponsorenlauf zu
+            begleichen? Wir, die Schüler der Klassen sowie die Schule, wären Ihnen sehr dankbar, wenn Sie dies
+            zeitnah machen könnten, um die Wunsch-Ziele einlösen zu können, vielen Dank nochmals dafür!
+            Anbei erhalten Sie erneut die Auflistung und Rechnung für die Überweisung. Oder geben Sie den Betrag
+            Ihrem/Ihrer Schüler:in Bar zur Abgabe im Sekretariat mit. Danke!</p>
+
+    </div>
+
+    <table class="bill-table">
+        <thead>
+        <tr>
+            <th>Details</th>
+            <th>Betrag</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Replace the following row with your actual bill details -->
+        [entries]
+        </tbody>
+    </table>
+
+    <div class="total-amount">
+       [total]
+    </div>
+
+    <p></p>
+    <div class="foot" style="text-align: left;">
+        <p>Bei Fragen zum Sponsorenlauf oder zu Ihrer Rechnung nehmen Sie gerne Kontakt zu uns auf:
+            <a href= "mailto:sponsorenlauf@steinerschule-stgallen.ch">sponsorenlauf@steinerschule-stgallen.ch</a>
+        </p>
+        <p>Nochmals vielen Dank für Ihre Unterstützung!<br>
+            Mit freundlichen Grüssen wünschen wir Ihnen eine schöne Adventszeit!</p>
+        <p>Ihr Sponsorenlauf-Team</p>
+    </div>
+</div>
+</body>
+</html>

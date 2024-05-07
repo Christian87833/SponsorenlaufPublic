@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Main-Class: ch.steinerschule_stgallen.model.Main
+Class-Path: fontbox-2.0.26.jar annotations-13.0.jar reactive-streams-1.0
+ .4.jar kotlin-stdlib-jdk8-1.5.31.jar error_prone_annotations-2.11.0.jar
+  netty-handler-4.1.89.Final.jar jna-5.5.0.jar netty-codec-socks-4.1.89.
+ Final.jar nimbus-jose-jwt-9.22.jar accessors-smart-2.4.8.jar bcpkix-jdk
+ 15on-1.70.jar microsoft-graph-core-2.0.19.jar layout-7.2.3.jar checker-
+ qual-3.12.0.jar reactor-netty-core-1.0.28.jar jackson-annotations-2.15.
+ 2.jar netty-tcnative-boringssl-static-2.0.56.Final-osx-aarch_64.jar azu
+ re-json-1.0.1.jar netty-tcnative-boringssl-static-2.0.56.Final-linux-aa
+ rch_64.jar netty-resolver-dns-native-macos-4.1.89.Final-osx-x86_64.jar 
+ bcprov-jdk15on-1.70.jar kotlin-stdlib-1.6.20.jar jackson-core-2.14.2.ja
+ r azure-identity-1.8.1.jar content-type-2.2.jar netty-transport-classes
+ -kqueue-4.1.89.Final.jar commons-7.2.3.jar microsoft-graph-5.49.0.jar q
+ rbill-generator-3.0.7.jar azure-core-http-netty-1.13.1.jar azure-core-1
+ .41.0.jar jackson-datatype-jsr310-2.13.5.jar netty-resolver-dns-4.1.89.
+ Final.jar json-smart-2.4.8.jar netty-transport-native-kqueue-4.1.89.Fin
+ al-osx-x86_64.jar netty-tcnative-boringssl-static-2.0.56.Final-linux-x8
+ 6_64.jar netty-handler-proxy-4.1.89.Final.jar asm-9.1.jar netty-tcnativ
+ e-boringssl-static-2.0.56.Final-osx-x86_64.jar kotlin-stdlib-jdk7-1.5.3
+ 1.jar netty-codec-dns-4.1.89.Final.jar netty-transport-classes-epoll-4.
+ 1.89.Final.jar okio-jvm-3.0.0.jar pdfbox-2.0.26.jar netty-tcnative-bori
+ ngssl-static-2.0.56.Final.jar forms-7.2.3.jar itextpdf-5.5.13.3.jar net
+ ty-common-4.1.89.Final.jar netty-transport-4.1.89.Final.jar msal4j-1.13
+ .5.jar guava-31.1-jre.jar netty-resolver-4.1.89.Final.jar io-7.2.3.jar 
+ commons-logging-1.2.jar logback-classic-1.2.6.jar kernel-7.2.3.jar lang
+ -tag-1.6.jar jsr305-3.0.2.jar jcip-annotations-1.0-1.jar slf4j-api-1.7.
+ 36.jar failureaccess-1.0.1.jar logback-core-1.2.6.jar jackson-databind-
+ 2.14.2.jar j2objc-annotations-1.3.jar oauth2-oidc-sdk-9.35.jar netty-co
+ dec-4.1.89.Final.jar gson-2.10.1.jar okhttp-4.10.0.jar netty-tcnative-b
+ oringssl-static-2.0.56.Final-windows-x86_64.jar html2pdf-4.0.3.jar nett
+ y-transport-native-epoll-4.1.89.Final-linux-x86_64.jar netty-codec-http
+ -4.1.89.Final.jar netty-codec-http2-4.1.89.Final.jar listenablefuture-9
+ 999.0-empty-to-avoid-conflict-with-guava.jar jna-platform-5.6.0.jar net
+ ty-tcnative-classes-2.0.56.Final.jar reactor-core-3.4.30.jar qrcodegen-
+ 1.8.0.jar reactor-netty-http-1.0.28.jar svg-7.2.3.jar styled-xml-parser
+ -7.2.3.jar netty-transport-native-unix-common-4.1.89.Final.jar spotbugs
+ -annotations-4.7.3.jar msal4j-persistence-extension-1.1.0.jar netty-res
+ olver-dns-classes-macos-4.1.89.Final.jar netty-buffer-4.1.89.Final.jar 
+ bcutil-jdk15on-1.70.jar kotlin-stdlib-common-1.5.31.jar
+

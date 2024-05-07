@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @font-face {
+            font-family: 'CustomFont';
+            src: url('lib\\ArialMT.woff2') format('woff2');
+            font-weight: normal;
+        }
+
+        @font-face {
+            font-family: 'CustomFont';
+            src: url('lib\\Arial-BoldMT.woff2') format('woff2');
+            font-weight: bold;
+        }
+        body {
+            font-family: 'CustomFont', sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: #333333;
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .bill-details {
+            margin-bottom: 30px;
+        }
+
+        .bill-details p {
+            margin: 0;
+        }
+
+        .bill-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+
+        .bill-table th,
+        .bill-table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .bill-table th {
+            background-color: #f5f5f5;
+        }
+
+        .total-amount {
+            text-align: right;
+            margin-top: 30px;
+        }
+
+        .total-amount p {
+            margin: 0;
+        }
+
+        .foot {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .qr-section {
+            clear: both;
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .logo {
+            margin: 0;
+            width: 50%;
+            text-align: left;
+            object-fit: contain;
+        }
+        .column {
+            float: [css2];
+            width: [css];
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        figcaption {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div style="text-align: left;">
+        <figure style="margin: 0;"><img src="cid:logo" class="logo" alt="Rudolf Steiner Schule St. Gallen"></figure>
+    </div>
+    <br>
+    <br>
+    <div class="header">
+        <h1>Ihre Rechnung für den Sponsorenlauf</h1>
+    </div>
+
+    <div class="bill-details">
+        <p style="text-align: left;">Sehr geehrte[title] [name]</p>
+        <p style="text-align: justify;">Vielen Dank für ihre Beteiligung am diesjährigen Sponsorenlauf!
+            Wir wissen Ihre Unterstützung der Schule und der Schüler sehr zu schätzen! Bitte finden Sie
+            anschliessend Ihre Rechnung. Eine detailierte Rechnung mit Zahlungsanweisung finden Sie
+            ebenfalls als PDF im Anhang.</p>
+    </div>
+
+    <table class="bill-table">
+        <thead>
+        <tr>
+            <th>Details</th>
+            <th>Betrag</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Replace the following row with your actual bill details -->
+        [entries]
+        </tbody>
+    </table>
+
+    <div class="total-amount">
+        [total]
+    </div>
+
+    <div class="qr-section">
+        <p style="text-align: left;">Sie können jetzt bequem mit Ihrem individuellem QR Code bezahlen,</p>
+        <div class="row">
+            [qrcodes]
+        </div>
+    </div>
+
+    <br>
+    <div style="text-align: justify";>
+        <p>oder via Einzahlungsschein/ manuelle Überweisung. Alle dafür benötigten Infos auf einen Blick:
+
+        <table class="bill-table">
+            <tr>
+                <td>Begünstigter</td>
+                <td>Rudolf Steiner Schule St.Gallen</td>
+            </tr>
+            <tr>
+                <td>IBAN</td>
+                <td>CH6509000000900058775</td>
+            </tr>
+            <tr>
+                <td>Verwendungszweck</td>
+                <td>SL 2023, Nr. [billNum]</td>
+            </tr>
+        </table>
+        </p>
+    </div>
+
+    <p></p>
+    <div class="foot" style="text-align: left;">
+        <p>Bei Fragen zum Sponsorenlauf oder zu Ihrer Rechnung nehmen Sie gerne Kontakt zu uns auf:
+        <a href= "mailto:sponsorenlauf@steinerschule-stgallen.ch">sponsorenlauf@steinerschule-stgallen.ch</a>
+        </p>
+        <p>Nochmals vielen Dank für Ihre Unterstützung!<br>
+        Mit freundlichen Grüssen,</p>
+        <p>Ihr Sponsorenlauf-Team</p>
+    </div>
+</div>
+</body>
+</html>

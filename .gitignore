@@ -1,0 +1,10 @@
+# Project exclude paths
+/target/
+
+src/main/resources/Keys.json
+
+out
+
+log.txt
+# Project exclude paths
+/out/

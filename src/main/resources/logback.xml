@@ -1,0 +1,20 @@
+<!-- logback.xml -->
+<configuration>
+    <!-- Define the console appender -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- Define the layout for the log messages -->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+        </layout>
+    </appender>
+
+    <!-- Set the log level for the Reactor library to ERROR -->
+    <logger name="reactor.util.Loggers" level="WARN" />
+    <logger name="ch.qos.logback" level="WARN" />
+
+    <!-- Set the default log level for other loggers (if needed) -->
+    <root level="WARN">
+        <!-- Reference the CONSOLE appender -->
+        <appender-ref ref="CONSOLE" />
+    </root>
+</configuration>
