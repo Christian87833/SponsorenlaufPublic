@@ -294,6 +294,8 @@ public class Model {
         ObjectMapper mapper = new ObjectMapper();
 
         try {
+            LoadedStructure.idToStudent.clear();
+            LoadedStructure.idToSponsor.clear();
             LoadedStructure ls;
             ls = mapper.readValue(
                     loadFrom, LoadedStructure.class);
